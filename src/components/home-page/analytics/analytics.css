@@ -1,0 +1,143 @@
+.analyticsContaiener {
+  background: #f4f6fa;
+  height: 778px;
+}
+
+.aBox {
+  position: relative;
+  top: -7.2em;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  padding: 61px 60px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.bTitle {
+  flex: 1;
+}
+.bTitle h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #020000;
+}
+.bTitle h2 span {
+  color: #fc7200;
+  margin-left: 10px;
+}
+.bInputBox {
+  flex: 2;
+}
+.bInputBox label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  color: #020000;
+}
+#inputInput {
+  margin-top: 5px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.04);
+  border-radius: 11px;
+  /* display: block; */
+  width: 576px;
+  height: 60px;
+  padding: 0px 2em;
+  outline: none;
+}
+#inputInput::placeholder {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+  color: #bdbdbd;
+}
+.bInputBox button {
+  cursor: pointer;
+  transform: translateX(-11.5em);
+  outline: none;
+  border: none;
+  padding: 14px 23px;
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(
+    107.69deg,
+    #fdd661 12.09%,
+    #fca22e 50.11%,
+    #fc7200 87.91%
+  );
+  mix-blend-mode: normal;
+  border-radius: 38px;
+}
+
+/* second box */
+
+.aSecondDiv {
+  display: flex;
+}
+.asecTitle {
+  flex: 1;
+}
+.asecTitle h2 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  color: #020000;
+}
+.asecTitle h2 span {
+  color: #020be9;
+}
+.asecBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  flex: 2.5;
+}
+
+.asecCard {
+  margin-right: 1em;
+  margin-bottom: 3em;
+  width: 45%;
+  display: flex;
+}
+.asecImage {
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  position: relative;
+  width: 35%;
+  height: 35%;
+  padding: 10px;
+}
+.asecImage img {
+  width: 70%;
+  height: 70%;
+}
+.acardTitle {
+  padding-top: 1.5em;
+  padding-left: 1.2em;
+}
+.acardTitle h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  color: #020000;
+}
+.acardTitle p {
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #858688;
+}

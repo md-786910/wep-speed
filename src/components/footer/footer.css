@@ -1,0 +1,77 @@
+.footerContainer {
+  background: #000807;
+  height: 50vh;
+  padding: 5em 0;
+  background-repeat: no-repeat;
+  background-position: right 1%;
+  background-image: url("E:\Web Devlopment\codeStaffer Code\Wepspeed\public\image/footer.png");
+}
+.footerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.leftFooter {
+  flex: 1;
+}
+
+.footerTitle h2 {
+  width: 60%;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: white;
+}
+
+.footerTitle h2 span {
+  color: #f3385a;
+}
+.footerDesc {
+  margin-top: 1.5em;
+}
+.footerDesc p {
+  width: 70%;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.footerBtn {
+  margin-top: 1.5em;
+}
+.footerBtn button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+  border: 1px solid white;
+  padding: 18px 23px;
+  mix-blend-mode: normal;
+  border-radius: 38px;
+  background: black;
+  outline: none;
+  cursor: pointer;
+}
+.rightFooter {
+  flex: 1;
+}
+
+.footerPowered {
+  margin-top: 5em;
+  text-align: center;
+}
+.footerPowered p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footerPowered p span {
+  color: #f3385a;
+}

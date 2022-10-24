@@ -1,0 +1,63 @@
+.contentContainer {
+  margin-top: 8em;
+  height: 60vh;
+}
+.contentRound {
+  position: absolute;
+  /* width: 50%;
+   */
+  width: 50%;
+  height: 1000px;
+  right: -0px;
+  top: -877px;
+  z-index: -1;
+  background: #f4f6fa;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 0%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.contentTitle {
+  flex: 1;
+}
+.contentTitle h1 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 66px;
+  color: #020000;
+}
+.contentTitle h1 span {
+  margin-left: 10px;
+  color: #020be9;
+}
+.contentTitle p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #858688;
+  padding-top: 1em;
+}
+
+.contentSection {
+  flex: 1;
+}
+
+.contentImage {
+  text-align: center;
+  margin-top: 2em;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.contentImage img {
+  transform: rotate(-12deg) translateY(-5em);
+  width: 50%;
+}

@@ -1,0 +1,73 @@
+.sectionContainer {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5wbbPhKxDRnbR9yKu95Dv29T2sy8XCMiFng&usqp=CAU"),
+    #020be9;
+  background-blend-mode: luminosity, normal;
+}
+
+.sectionBox {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.sectionTitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    rgba(244, 246, 250, 0.23) 0%,
+    rgba(244, 246, 250, 0) 84.21%
+  );
+  backdrop-filter: blur(15.5px);
+  flex: 1;
+  height: 100vh;
+  border-radius: 50%;
+}
+.sectionTitle h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  color: #ffffff;
+  width: 60%;
+}
+.sectionTitle h2 span {
+  color: #fd8411;
+}
+.sectionContent {
+  padding-left: 3em;
+  flex: 1;
+}
+.sectonDesc {
+}
+.sectonDesc p {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+.sectionBtn {
+  margin-top: 27px;
+}
+.sectionBtn button {
+  cursor: pointer;
+  box-sizing: border-box;
+  padding: 14px 23px;
+  background: linear-gradient(
+    107.69deg,
+    #fdd661 12.09%,
+    #fca22e 50.11%,
+    #fc7200 87.91%
+  );
+  mix-blend-mode: normal;
+  border-radius: 38px;
+  color: white;
+  border: none;
+}
