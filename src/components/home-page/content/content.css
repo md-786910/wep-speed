@@ -2,24 +2,11 @@
   margin-top: 8em;
   height: 60vh;
 }
-.contentRound {
-  position: absolute;
-  /* width: 50%;
-   */
-  width: 50%;
-  height: 1000px;
-  right: -0px;
-  top: -877px;
-  z-index: -1;
-  background: #f4f6fa;
-  border-top-left-radius: 50%;
-  border-bottom-left-radius: 50%;
-  border-bottom-right-radius: 0%;
-}
 
 .content {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 .contentTitle {
   flex: 1;
@@ -52,12 +39,57 @@
 
 .contentImage {
   text-align: center;
-  margin-top: 2em;
   position: relative;
+  z-index: 10;
   width: 100%;
   height: 100%;
+  margin-top: -7em;
 }
 .contentImage img {
-  transform: rotate(-12deg) translateY(-5em);
-  width: 50%;
+  width: 70%;
+}
+@media screen and (max-width: 885px) {
+  .contentSection {
+    width: 100%;
+  }
+  .content {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 0em;
+  }
+  .contentTitle {
+    width: 100%;
+  }
+  .contentImage {
+    z-index: -1;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+    margin-top: -13em;
+  }
+  .contentImage img {
+    transform: rotate(-15deg);
+    width: 0%;
+    right: 0;
+    width: 30%;
+  }
+  .spanTitle {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .contentTitle h1 {
+    line-height: 50px;
+    font-size: 45px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .contentImage {
+    margin-top: -12.5em;
+  }
 }

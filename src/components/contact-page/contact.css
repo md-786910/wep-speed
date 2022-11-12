@@ -1,0 +1,268 @@
+.contactContainer {
+  padding: 7em 0em;
+}
+.contactBackPage {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  bottom: 0px;
+  z-index: 80;
+  height: 50vh;
+  background: #f4f6fa;
+}
+.contactBox {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contactLeft {
+  flex: 1;
+  max-width: 400px;
+}
+.contactTitle h1 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 66px;
+  color: #020000;
+}
+.contactTitle p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 18px;
+  line-height: 29px;
+  color: #858688;
+}
+.contactLeftBox1 {
+  margin-top: 2em !important;
+}
+.contactLeftBox1,
+.contactLeftBox2 {
+  margin-top: 1em;
+  box-sizing: border-box;
+  width: 378px;
+  height: 191px;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  border-radius: 12px;
+  padding: 2em 4em;
+}
+
+.contactLeftBox1 h2 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 39px;
+  /* identical to box height, or 162% */
+
+  color: #020000;
+}
+.contactLeftBox1 p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  /* or 161% */
+
+  color: #858688;
+}
+
+.contactLeftBox2 h2 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 39px;
+  /* identical to box height, or 162% */
+
+  color: #020000;
+}
+.contactLeftBox2 p {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+
+  /* or 161% */
+
+  color: #858688;
+}
+@media only screen and (max-width: 684px) {
+  .contactRight {
+    max-width: 100%;
+  }
+
+  .contactContainer {
+    padding: 7em 0em;
+  }
+  .contactBackPage {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    bottom: 0px;
+    z-index: 80;
+    height: 50vh;
+    background: #f4f6fa;
+  }
+  .contactBox {
+    position: relative;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .contactLeft {
+    max-width: 100%;
+  }
+  .contactTitle h1 {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 66px;
+    color: #020000;
+  }
+  .contactTitle p {
+    font-family: "Epilogue";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 18px;
+    line-height: 29px;
+    color: #858688;
+  }
+  .contactLeftBox1 {
+    margin-top: 2em !important;
+  }
+  .contactLeftBox1,
+  .contactLeftBox2 {
+    margin-top: 1em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 191px;
+    background: #ffffff;
+    border: 1px solid #ececec;
+    border-radius: 12px;
+    padding: 2em 2em;
+  }
+}
+
+.contactRight {
+  max-width: 40%;
+  flex: 1;
+}
+
+.rightBox {
+  padding: 2em 3em;
+  box-sizing: border-box !important;
+  border: 1px solid #ececec;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.rightBox h2 {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+}
+.rightBox h2 span {
+  color: #020be9;
+}
+.formText {
+  margin-top: 1em !important;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.04);
+  border-radius: 11px;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 1.5em;
+  outline: none;
+  text-indent: 1.5em;
+}
+.formText::placeholder {
+  font-family: "Epilogue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 14px;
+
+  /* Gray 4 */
+  color: #bdbdbd;
+}
+.checkBoxCon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.checkBox {
+  cursor: pointer;
+
+  width: 17px;
+  height: 17px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ececec;
+  box-shadow: inset 0px 3px 3px rgba(0, 0, 0, 0.04);
+  border-radius: 7px;
+}
+.checkBoxCon p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+
+  color: #bdbdbd;
+}
+.checkBoxCon p span {
+  color: #020be9;
+}
+
+.btnBox {
+  margin-top: 1.5em;
+}
+.btnBox button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 14px 23px; */
+  gap: 8px;
+  background: linear-gradient(
+    107.69deg,
+    #fdd661 12.09%,
+    #fca22e 50.11%,
+    #fc7200 87.91%
+  );
+  mix-blend-mode: normal;
+  border-radius: 38px;
+  width: 100%;
+  height: 56px;
+  border: none;
+  outline: none;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+@media only screen and (max-width: 684px) {
+  .contactRight {
+    max-width: 100%;
+  }
+  .contactRight {
+    margin-top: 2em;
+  }
+}
