@@ -4,8 +4,6 @@ import "./content.css";
 function Content() {
   return (
     <section className="contentContainer">
-      <div className="contentRound"></div>
-
       <div className="contentWrapper">
         <div className="wrapper">
           <div className="content">

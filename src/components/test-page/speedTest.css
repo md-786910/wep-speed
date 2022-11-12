@@ -1,0 +1,109 @@
+.speedContainer {
+  padding: 7em 0em;
+}
+.speedWrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.speedTitle h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 66px;
+  text-align: center;
+  color: #020000;
+}
+.speedBooster {
+  position: absolute;
+  top: 0px;
+}
+.speedBooster img {
+  object-fit: contain;
+  display: block;
+  width: 100%;
+  height: 100%;
+  animation: moveRocket 1s ease-in-out infinite alternate;
+}
+.speedQuad {
+  margin-top: 13em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.speedCirc {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 87px;
+  height: 87px;
+  border: 5px solid #06c853;
+  border-radius: 50%;
+}
+.speedCirc p {
+  margin-top: 10px;
+  align-self: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 26px;
+  text-align: center;
+  color: #06c853;
+}
+.speedContext {
+  margin-top: 1.5em;
+}
+.speedContext p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  text-align: center;
+  color: #333333;
+}
+
+.speedTestBtn {
+  margin-top: 1.5em;
+}
+.speedTestBtn button {
+  background: linear-gradient(
+    107.69deg,
+    #fdd661 12.09%,
+    #fca22e 50.11%,
+    #fc7200 87.91%
+  );
+  mix-blend-mode: normal;
+  border-radius: 38px;
+  padding: 14px 23px;
+  outline: none;
+  border: none;
+  width: 297px;
+  height: 64px;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* add animation */
+@keyframes moveRocket {
+  0% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}

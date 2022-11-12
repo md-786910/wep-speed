@@ -1,15 +1,16 @@
 .sectionContainer {
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
+  /* width: 100%; */
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5wbbPhKxDRnbR9yKu95Dv29T2sy8XCMiFng&usqp=CAU"),
     #020be9;
   background-blend-mode: luminosity, normal;
 }
 
 .sectionBox {
-  position: relative;
+  /* position: relative; */
   height: 50vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -70,4 +71,45 @@
   border-radius: 38px;
   color: white;
   border: none;
+}
+
+@media screen and (max-width: 860px) {
+  .sectionContainer {
+    padding: 0em;
+  }
+  .sectionTitle h2 {
+    width: 100%;
+  }
+  .sectionBox {
+    padding-top: 2em;
+    height: 70vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sectionTitle {
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+  }
+  .sectionContent {
+    width: 100%;
+    padding-left: 0em;
+    padding-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .sectionBtn {
+    margin-bottom: 27px;
+  }
+  .sectionBox {
+    position: relative;
+    height: 100vh;
+  }
 }

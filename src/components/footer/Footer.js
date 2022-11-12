@@ -11,7 +11,7 @@ function Footer() {
                 <h2>
                   <span>WEBSPEED.SK</span>
                   je súčasťou digitálnej agentúry
-                  <span>MATATE</span>
+                  <span id="metate">MATATE</span>
                 </h2>
               </div>
               <div className="footerDesc">
@@ -26,6 +26,10 @@ function Footer() {
             </div>
 
             <div className="rightFooter"></div>
+          </div>
+
+          <div className="footerLogo">
+            <img src="./image/flogo.png" alt="" />
           </div>
 
           <div className="footerPowered">

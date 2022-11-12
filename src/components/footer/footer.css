@@ -1,12 +1,24 @@
 .footerContainer {
-  background: #000807;
-  height: 50vh;
   padding: 5em 0;
+  background: #000807;
+  position: relative;
+  overflow: hidden;
+}
+.footerWrapper::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: right 1%;
-  background-image: url("E:\Web Devlopment\codeStaffer Code\Wepspeed\public\image/footer.png");
+  background-image: url("file:///E:/Web%20Devlopment/codeStaffer%20Code/webspeed%20code%20old%20fully/public/image/line.png");
 }
 .footerBox {
+  position: relative;
+  z-index: 10;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,8 +35,11 @@
   line-height: 39px;
   color: white;
 }
-
+#metate {
+  padding-left: 5px;
+}
 .footerTitle h2 span {
+  padding-right: 5px;
   color: #f3385a;
 }
 .footerDesc {
@@ -59,9 +74,11 @@
 .rightFooter {
   flex: 1;
 }
-
+.footerLogo {
+  text-align: center;
+}
 .footerPowered {
-  margin-top: 5em;
+  margin-top: 10px;
   text-align: center;
 }
 .footerPowered p {
@@ -74,4 +91,76 @@
 }
 .footerPowered p span {
   color: #f3385a;
+}
+
+@media screen and (max-width: 860px) {
+  .footerContainer {
+    background-position: 145% 1%;
+  }
+
+  .footerBox {
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .leftFooter {
+    width: 100%;
+  }
+
+  .footerTitle h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .footerTitle h2 span {
+    color: #f3385a;
+    padding-left: 10px;
+  }
+  .footerDesc {
+    margin-top: 1.5em;
+  }
+  .footerDesc p {
+    width: 100%;
+  }
+  .footerBtn {
+    margin-top: 1.5em;
+  }
+  .footerBtn button {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 18px 23px;
+    mix-blend-mode: normal;
+    border-radius: 38px;
+    background: black;
+    outline: none;
+    cursor: pointer;
+  }
+  .rightFooter {
+    margin-top: 3em;
+    flex: 1;
+  }
+}
+@media screen and (max-width: 359px) {
+  .footerPowered p span {
+    display: block;
+    margin-top: 0.5em !important;
+  }
+}
+@media screen and (max-width: 750px) {
+  .footerWrapper::after {
+    width: 100%;
+    height: 25vh;
+    right: -20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% right;
+  }
 }
